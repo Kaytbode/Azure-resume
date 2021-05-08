@@ -10143,3 +10143,7 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+.visitor {
+  color: rgba(255, 255, 255, 0.63);
+}
