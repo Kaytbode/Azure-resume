@@ -29,7 +29,7 @@ jobs:
       with:
         azcliversion: 2.0.72
         inlineScript: |
-           az cdn endpoint purge --content-paths  "/*" --profile-name cdnresumeprofile --name cdnresumendpoint --resource-group cloudresumeazure
+           az cdn endpoint purge --content-paths  "/*" --profile-name resumeprofile --name cdnresumendpoint --resource-group cloudresumeazure
     - name: logout
       run: |
             az logout
