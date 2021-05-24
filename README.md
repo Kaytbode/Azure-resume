@@ -1,3 +1,5 @@
+![Workflow status](https://github.com/kaytbode/Azure-resume/actions/workflows/main.yml/badge.svg)
+
 # Azure Resume
 
 A static website with a page-views functionality. This is a response to the [Cloud Guru Challenge: Your Resume in Azure](https://acloudguru.com/blog/engineering/cloudguruchallenge-your-resume-in-azure) created by Gwyn Peña-Siguenza.  
