@@ -10,9 +10,6 @@ on:
   pull_request:
     branches: [ main ]
 
-env:
-  AZURE_FUNCTIONAPP_PACKAGE_PATH: '.'
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -20,10 +17,8 @@ jobs:
     - name: 'Run test'
       shell: bash
       run: |
-        pushd './${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}'
         npm install
-        npm test
-        popd     
+        npm test     
     - uses: actions/checkout@v2
     - uses: azure/login@v1
       with:
