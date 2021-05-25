@@ -17,6 +17,7 @@ jobs:
     - name: 'Run test'
       shell: bash
       run: |
+        pushd './${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}'
         npm install
         npm test        
     - uses: actions/checkout@v2
