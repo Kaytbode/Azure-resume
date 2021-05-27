@@ -12,10 +12,9 @@ const getCounter = async () => {
 
         const element = document.getElementById('visitor-num');
 
-        element.textContent = data.counter;
+        element.textContent = `${data.counter} times`;
               
     } catch (error) {
         console.log(error);
     } 
 } 
-
